@@ -22,8 +22,8 @@ import { PLATFORM_ID } from '@angular/core';
 import { isPlatformServer } from '@angular/common';
 
 import { CommonModule } from '@angular/common';
-
-import * as tween from '@tweenjs/tween.js'
+const tween = require('@tweenjs/tween.js');
+// import * as tween from '@tweenjs/tween.js'
 import { VirtualScrollerDefaultOptions } from './defaultoptions';
 import { IPageInfo } from './ipageinfo';
 import { IViewport } from './iviewport';
